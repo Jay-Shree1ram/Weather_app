@@ -1,6 +1,6 @@
-require('dotenv').config();
-const apikey = process.env.API_KEY; ;
-const apiUrl = process.env.API_URL;
+
+const apikey = config.API_KEY; ;
+const apiUrl = config.API_URL;
 const searchBox = document.querySelector(".search input");
 
 const searchBtn = document.querySelector(".search button");
