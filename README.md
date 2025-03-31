@@ -2,17 +2,17 @@
 A simple weather application that allows users to check the current weather conditions for any city. The app fetches real-time weather data using the OpenWeatherMap API and displays information such as temperature, humidity, and weather conditions.
 
 # 📌 Features
-🔍 Search for any city to get current weather details.
+- 🔍 Search for any city to get current weather details.
 
-🌡 Displays temperature in Celsius.
+- 🌡 Displays temperature in Celsius.
 
-💧 Shows humidity percentage.
+- 💧 Shows humidity percentage.
 
-🌬 Shows wind speed.
+- 🌬 Shows wind speed.
 
-🎨 Beautiful and responsive UI with a gradient background.
+- 🎨 Beautiful and responsive UI with a gradient background.
 
-❌ Error handling for invalid city names.
+- ❌ Error handling for invalid city names.
 
 # 🛠 Technologies Used
 🌐 HTML - Structure of the web app.
