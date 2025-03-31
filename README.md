@@ -15,13 +15,13 @@ A simple weather application that allows users to check the current weather cond
 ❌ Error handling for invalid city names.
 
 # 🛠 Technologies Used
-HTML - Structure of the web app.
+🌐 HTML - Structure of the web app.
 
-CSS - Styling and layout.
+🎨 CSS - Styling and layout.
 
-JavaScript - Fetching data from the API and dynamically updating the UI.
+🚀 JavaScript - Fetching data from the API and dynamically updating the UI.
 
-OpenWeatherMap API - Provides real-time weather data.
+☁️ OpenWeatherMap API - Provides real-time weather data.
 
 # 🚀 Getting Started
 
