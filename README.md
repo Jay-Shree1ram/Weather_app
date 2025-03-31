@@ -50,3 +50,6 @@ A simple weather application that allows users to check the current weather cond
 
 # 🤝 Contributing
 Feel free to fork this repository and make improvements. Pull requests are welcome! 🚀
+
+# LICENSE 
+[MIT Licence](LICENSE)
