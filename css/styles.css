@@ -155,16 +155,16 @@ body{
     }
 
     .details {
-        display: flex; /* Ensure flexbox is enabled */
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Align items to the start (left) */
-        margin-top: 20px; /* Spacing from previous section */
-        padding: 0 20px; /* Optional: Adjust padding if needed */
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: 20px; 
+        padding: 0 20px; 
     }
     
-    /* Optional: Add some spacing between individual columns in mobile view */
+    
     .col {
-        margin-bottom: 20px; /* Add spacing between each column */
+        margin-bottom: 20px; 
     }
 
     .col img {
