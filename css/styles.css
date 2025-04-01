@@ -92,3 +92,100 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .card {
+        padding: 30px 25px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+    }
+
+    .details {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+
+    .col {
+        margin-bottom: 10px;
+    }
+
+    .col img {
+        width: 30px;
+    }
+
+    .humidity, .wind {
+        font-size: 22px;
+    }
+
+    .search input {
+        font-size: 16px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .weather-icon {
+        width: 150px;
+    }
+}
+
+/* Very small screens like phones in portrait mode */
+@media (max-width: 480px) {
+    .card {
+        margin: 50px auto 0;
+        padding: 20px 15px;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 30px;
+    }
+
+    .details {
+        display: flex; /* Ensure flexbox is enabled */
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Align items to the start (left) */
+        margin-top: 20px; /* Spacing from previous section */
+        padding: 0 20px; /* Optional: Adjust padding if needed */
+    }
+    
+    /* Optional: Add some spacing between individual columns in mobile view */
+    .col {
+        margin-bottom: 20px; /* Add spacing between each column */
+    }
+
+    .col img {
+        width: 25px;
+    }
+
+    .humidity, .wind {
+        font-size: 18px;
+    }
+
+    .search input {
+        font-size: 14px;
+    }
+
+    .search button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .weather-icon {
+        width: 130px;
+    }
+   
+}
