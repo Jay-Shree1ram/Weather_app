@@ -23,6 +23,10 @@ A simple weather application that allows users to check the current weather cond
 
 ☁️ OpenWeatherMap API - Provides real-time weather data.
 
+🚀 Docker - used for containerization and ease of deployment.
+
+
+
 # 🚀 Getting Started
 
 1. Clone the repository:
