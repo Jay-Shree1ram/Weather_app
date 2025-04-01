@@ -48,6 +48,9 @@ A simple weather application that allows users to check the current weather cond
 
 ![image alt](https://github.com/Jay-Shree1ram/Weather_app/blob/1b31a7506f59690f6aadc1247a910a15c70e0d3b/images/screenshots/Screenshot2.png)
 
+## Mobile responsive
+![image alt](https://github.com/Jay-Shree1ram/Weather_app/blob/1e8b4543e7361ec2e6424487484d72df0090080f/images/screenshots/s3.png)
+
 # Using Docker 
 
 1. Check docker present
