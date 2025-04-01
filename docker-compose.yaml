@@ -8,5 +8,5 @@ services:
     image: kajirocks/weather_app:latest 
     container_name: weather_app
     ports:
-      - "85:80"  
+      - "80:80"  
 
