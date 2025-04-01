@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile  
+    image: kajirocks/weather_app:latest 
+    container_name: weather_app
+    ports:
+      - "85:80"  
+
