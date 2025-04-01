@@ -48,6 +48,33 @@ A simple weather application that allows users to check the current weather cond
 
 ![image alt](https://github.com/Jay-Shree1ram/Weather_app/blob/1b31a7506f59690f6aadc1247a910a15c70e0d3b/images/screenshots/Screenshot2.png)
 
+# Using Docker 
+
+1. Check docker present
+   ```bash
+   docker -v
+   
+2. Run docker command:
+     ```bash
+     docker run -idt -p 80:80 --name weather_app kajirocks/weather_app:v1
+     
+3. Access the Container:
+   ```bash
+   docker exec -it weather_app /bin/bash
+   
+4. Add config file inside the js directory:
+   ```bash
+    const config = {
+    API_KEY: "your api key",
+    API_URL: "api url"};
+   
+5. Restart the container:
+   ```bash
+   docker restart weather_app
+
+
+
+
 # 🤝 Contributing
 Feel free to fork this repository and make improvements. Pull requests are welcome! 🚀
 
