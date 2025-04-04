@@ -1,4 +1,7 @@
 # 🌤 Weather App
+
+🔗 **Live Demo:** [Click here to view the site](https://jay-shree1ram.github.io/Weather_app/)
+
 A simple weather application that allows users to check the current weather conditions for any city. The app fetches real-time weather data using the OpenWeatherMap API and displays information such as temperature, humidity, and weather conditions.
 
 # 📌 Features
